@@ -1,0 +1,52 @@
+body {
+    background: url('images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(255,255,255,0.85);
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+h2 { text-align:center; margin-bottom:20px; }
+
+button {
+    padding: 12px 25px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+button:hover { background-color:#333; }
+
+input, select {
+    padding: 12px;
+    margin: 5px 0 15px 0;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+label { font-weight: normal; }
+
+a { color:#000; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+table { width:100%; border-collapse: collapse; margin-top:20px; }
+th, td { padding:12px; border-bottom:1px solid #ccc; text-align:center; }
+th { background-color:#000; color:#fff; }
+tr:nth-child(even) { background-color: rgba(0,0,0,0.05); }
+
+.status-present { background-color:#4CAF50; color:#fff; border-radius:5px; padding:5px 10px; }
+.status-absent { background-color:#F44336; color:#fff; border-radius:5px; padding:5px 10px; }
